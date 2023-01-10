@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY WEBSITE</title>
+    <link rel="icon" type="image/x-icon" href="akshat.png">
+    <style>
+        h1{
+            text-align: center;
+            text-shadow: 1px 1px 2px lawngreen;
+            text-decoration: underline;
+        }
+        .my-img{
+            display: block;
+             margin-left: auto;
+             margin-right: auto;
+        }
+        h3{
+            text-align: center;
+            color:red;
+        }
+        h2{
+            text-align: center;
+        }
+        .one{
+            text-align: center;
+        }
+        .two{
+            text-align: center;
+        }
+        .three{
+            text-align: center;
+        }
+        .button{
+            background-color: lightblue;
+            border-radius: 10px;
+            font-size: larger;
+            padding: 10px;
+        }
+        .button:hover{
+        
+            background-color: pink;
+        }  
+      table,tr,th,td {
+         border:2px solid rgb(211, 22, 22);
+         border-collapse:collapse;
+         font-size: larger;
+         
+      }
+      .card{
+            margin: 20px;
+            border-radius: 20px;
+            padding: 10px;
+            box-shadow: 0 6px 12px 0 rgba(0, 0,0,0.2);
+            width: 300px;
+            display: inline-block;
+        }
+        .card:hover{
+            box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+        }
+        .course-img{
+            padding-bottom: 10px;
+            border-radius: 20px;
+        }
+       
+        .c-heading{
+            display: inline;
+            text-align: left;
+        }
+        .course-price{
+            padding-top: 1px;
+            text-align: left;
+            padding-bottom: 2px;
+        }
+        .offer{
+            display: inline;
+            border-radius: 6px;
+            padding: 5px;
+            background-color: lightgreen;
+        }
+        .container{
+            text-align: left;
+        }
+        .cards{
+            text-align: center;
+            display: flex;
+            border:5px solid black;
+            border-color: blue;
+            height: 500px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+        }
+        .cards:hover{
+            border:7px solid red;
+            background-color: pink;
+            
+        }
+        body{
+            text-align: center;
+        }
+        .form-page{
+            display: inline-block;
+             color: rebeccapurple;
+             background-color: aqua;
+             border: 2px solid black;
+             border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1><b> A K S H A T &nbsp; A G N I H O T R I</b> </h1>
+    <img src="akshat.png" alt="myimage" width="250" class="my-img">
+    <h3>EDUCATION :- BTECH &nbsp;|&nbsp;CSE &nbsp;|&nbsp;3<sup>rd</sup>&nbsp;Year|&nbsp;BBD &nbsp;UNIVERSITY</h3>
+    <hr width="100%">
+    <h2><U>Contact Us Form</U></h2>
+    <div class="form-page">
+<form>
+ <b> Name:&nbsp;&nbsp;</b><input type="text" placeholder="Enter your name" class="one">
+<br> <b>Email:&nbsp;&nbsp;</b><input type="text" placeholder="Enter your email" class="two">
+     <br>
+     <b>Contact:&nbsp;</b><input type="number" placeholder="Enter your Number" class="three">
+     
+     <b>Gender:&nbsp;</b><input type="radio" name="Gender"  >Male&nbsp;<input type="radio" name="Gender" id="">Female
+     <br>
+     <b>Course:&nbsp;&nbsp;</b>
+     <select name="Course" id="">
+        <option value="Select Course">Select Course</option>
+        <option value="Web Development">Web Development</option>
+        <option value="DSA">DSA</option>
+        <option value="System Design">System Design</option>
+        <option value="Frontend">Frontend</option>
+      </select>
+      <br>
+      <b>DOB:&nbsp;</b>
+       <input type="date" name="" id=""><br>
+       <b>Rating:&nbsp;</b><input type="radio" name="Rating" id="">1&nbsp;<input type="radio" name="Rating" id="">2&nbsp;<input type="radio" name="Rating" id="">3&nbsp;<input type="radio" name="Rating" id="">4&nbsp;<input type="radio" name="Rating" id="">5&nbsp;<br>
+       <p><b>Enter Message:&nbsp;</b></p>
+       <textarea id="msg" name="message" rows="5" cols="30"> Enter Your Message
+        </textarea><br>
+        <a href="https://www.thecodehelp.in" target="blank">
+            <input type="button" value="Submit" class="button">
+        </a>
+       
+    </form>
+    </div>  
+    <hr width="100%">
+    <table align="center">
+        <tr>
+        <h1><b>Time Table</b></h1>
+        
+        </tr>
+        <tr>
+        <th rowspan="6">Hours</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        </tr>
+        <tr>
+        <td>science</td>
+        <td>math</td>
+        <td>science</td>
+        <td>maths</td>
+        <td>arts</td>
+        </tr>
+        <tr>
+        <td>science</td>
+        <td>math</td>
+        <td>science</td>
+        <td>maths</td>
+        <td>arts</td>
+        </tr>
+        <tr>
+        <th colspan="5">lunch</th>
+        </tr>
+        <tr>
+        <td>science</td>
+        <td>math</td>
+        <td>science</td>
+        <td>maths</td>
+        <td rowspan="2">project</td>
+        </tr>
+        <tr>
+        <td>history</td>
+        <td>english</td>
+        <td>social</td><td>social</td>
+        </tr>
+        </table>
+        <hr width="100%">
+        <h1>YOUTUBE &nbsp;VIDEOS</h1>
+        <iframe width="400" height="250" src="https://www.youtube.com/embed/KjGxeZvj824" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+        <iframe width="400" height="250" src="https://www.youtube.com/embed/TGaXmRxGvPs" title="YouTube video player" 
+        frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+         picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+        <iframe width="400" height="250" src="https://www.youtube.com/embed/t6zLJOCVqD0" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+        web-share" allowfullscreen>
+    </iframe>
+    <hr width="100%">
+    <h1>CARD &nbsp;COURSE</h1>
+    <div class="cards">
+        <div class="card">
+            <a href="https://www.thecodehelp.in/course/web-development-bootcamp" target="blank">
+                <img src="webdev.jpg" alt="course1" width="100%" class="course-img">
+            </a>
+            
+            <div class="container">
+    
+                <h2 class="c-heading">Web Development Master Course @Dot Batch</h2>
+                <hr style="width: 100%;">
+                <div class="course-price">
+                    <h2 style="display:inline; color:purple;"><b>₹4500 &nbsp</b></h>
+                    <h2 style="display:inline; color:grey;"><strike>₹6999 </strike>&nbsp</h2>
+                    <h2 class="offer"><b> 42% off</b></h2>
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <a href="https://www.thecodehelp.in/course/data-structures-bootcamp" target="blank">
+                <img src="dsa.jpg" alt="course1" width="100%" class="course-img">
+            </a>
+            
+            <div class="container">
+    
+                <h2 class="c-heading">Web Development Master Course @Dot Batch</h2>
+                <hr style="width: 100%;">
+                <div class="course-price">
+                    <h2 style="display:inline; color:purple;"><b>₹4500 &nbsp</b></h>
+                    <h2 style="display:inline; color:grey;"><strike>₹6999 </strike>&nbsp</h2>
+                    <h2 class="offer"><b> 42% off</b></h2>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <a href="https://www.thecodehelp.in/course/cracking-object-oriented-design-interviews" target="blank">
+                <img src="oops.jpeg" alt="course1" width="100%" class="course-img">
+            </a>
+            <div class="container">
+    
+                <h2 class="c-heading">Web Development Master Course @Dot Batch</h2>
+                <hr style="width: 100%;">
+                <div class="course-price">
+                    <h2 style="display:inline; color:purple;"><b>₹4500 &nbsp</b></h>
+                    <h2 style="display:inline; color:grey;"><strike>₹6999 </strike>&nbsp</h2>
+                    <h2 class="offer"><b> 42% off</b></h2>
+                </div>
+            </div>
+        </div>
+        </div>
+</body>
+</html>
